@@ -1,6 +1,6 @@
 This code was used for the entry by the team "antfugue" for the Weather4cast 2021 IEEE Big Data Cup challenge. Below, you can find the instructions for generating predictions, evaluating pre-trained models and training new models.
 
-For the code used in the Stage 1 competition, see [https://github.com/jleinonen/weather4cast-stage1].
+For the code used in the Stage 1 competition, see https://github.com/jleinonen/weather4cast-stage1.
 
 ## Installation
 
@@ -8,7 +8,7 @@ To use the code, you need to:
 1. Clone the repository.
 1. Setup a conda environment. You can find an environment verified to work in the `environment.yml` file. However, you might have to adapt it to your own CUDA installation.
 1. Fetch the data you want from the competition website. Follow the instructions [here](https://github.com/iarai/weather4cast#get-the-data). The data should should be in the `data` directory following the structure specified [here](https://github.com/iarai/weather4cast#start-here).
-1. (Optional) If you want to use the pre-trained models, download them from https://doi.org/10.5281/zenodo.5101213 (file weather4cast-bigdata-weights.zip). Place the `.h5` files in the `models` directory.
+1. (Optional) If you want to use the pre-trained models, download them from https://doi.org/10.5281/zenodo.5646287 (file weather4cast-bigdata-weights.zip). Place the `.h5` files in the `models` directory.
 
 
 ## Running the code
